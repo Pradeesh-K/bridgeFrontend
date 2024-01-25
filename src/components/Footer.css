@@ -1,0 +1,161 @@
+.FAQ {
+    background-color: #424242;
+    height: 148px;
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    bottom: 0;
+
+    
+  }
+  
+  .FAQ .linked-in {
+    height: 40px;
+    left: 1258px;
+    position: absolute;
+    top: 77px;
+    width: 40px;
+  }
+  
+  .FAQ .you-tube {
+    height: 51px;
+    left: 1188px;
+    position: absolute;
+    top: 70px;
+    width: 51px;
+  }
+  
+  .FAQ .instagram {
+    height: 40px;
+    left: 1129px;
+    position: absolute;
+    top: 71px;
+    width: 40px;
+  }
+  
+  .FAQ .twitter {
+    height: 35px;
+    left: 1065px;
+    position: absolute;
+    top: 79px;
+    width: 35px;
+  }
+  
+  .FAQ .button {
+    all: unset;
+    box-sizing: border-box;
+    color: #c5bd99;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 1065px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 29px;
+    width: 246px;
+  }
+  
+  .FAQ .group-3 {
+    height: 39px;
+    left: 149px;
+    position: absolute;
+    top: 70px;
+    width: 300px;
+  }
+  
+  .FAQ .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    color: #c5bd99;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 0;
+    white-space: nowrap;
+    width: 103px;
+  }
+  
+  .FAQ .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    color: #c5bd99;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 108px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 0;
+    white-space: nowrap;
+    width: 54px;
+  }
+  
+  .FAQ .button-4 {
+    all: unset;
+    box-sizing: border-box;
+    color: #c5bd99;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 171px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 0;
+    white-space: nowrap;
+    width: 47px;
+  }
+  
+  .FAQ .button-5 {
+    all: unset;
+    box-sizing: border-box;
+    color: #c5bd99;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 227px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 65px;
+  }
+  
+  .FAQ .DONNERSBERGERBRÜKE {
+    color: #ffffff;
+    font-family: "Gothic A1", Helvetica;
+    font-size: 24px;
+    font-weight: 900;
+    left: 149px;
+    letter-spacing: 0;
+    line-height: 38px;
+    position: absolute;
+    top: 43px;
+    white-space: nowrap;
+    width: 366px;
+  }
+  
+  .FAQ .img {
+    height: 55px;
+    left: 64px;
+    position: absolute;
+    top: 31px;
+    width: 56px;
+  }
+  

@@ -1,0 +1,116 @@
+.component {
+    background-color: #ffffff;
+    height: 192px;
+    width: 80%;
+    position: relative;
+    top: 0;
+    left: 10%; /* 10% margin on the left */
+    right: 10%; /* 10% margin on the right */
+
+  }
+  
+  .component .group {
+    height: 27px;
+    left: 145px;
+    position: absolute;
+    top: 124px;
+    width: 366px;
+  }
+  
+  .component .vector {
+    height: 55px;
+    left: 61px;
+    position: absolute;
+    top: 108px;
+    width: 56px;
+  }
+  
+  .component .HOME {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 836px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 128px;
+  }
+  
+  .component .text-wrapper {
+    color: #c5bd99;
+    font-family: "Lato", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 836px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    width: 120px;
+  }
+  
+  .component .ABOUT {
+    color: #dcc7c7;
+    font-family: "Lato", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 974px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 128px;
+  }
+  
+  .component .DESIGN {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 1127px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 128px;
+  }
+  
+  .component .m-ORE {
+    color: #dcc7c7;
+    font-family: "Lato", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 1279px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 128px;
+  }
+  
+  .component .overlap-group {
+    height: 45px;
+    left: 1002px;
+    position: absolute;
+    top: 43px;
+    width: 349px;
+  }
+  
+  .component .div {
+    background-color: #c5bd99;
+    border-radius: 10px;
+    height: 39px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 349px;
+  }
+  
+  .component .search {
+    height: 45px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    width: 45px;
+  }
+  

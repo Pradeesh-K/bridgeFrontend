@@ -1,0 +1,318 @@
+.survey {
+  position: relative;
+  top: 180px;
+  padding-left: 15%;
+  overflow: hidden; /* Add this line */
+  margin-top: -5%;
+}
+
+.text-wrapper-8 {
+  color: #424242;
+  font-family: var(--display-font-family);
+  font-size: var(--display-font-size);
+  font-style: var(--display-font-style);
+  font-weight: var(--display-font-weight);
+  left: 299px;
+  letter-spacing: var(--display-letter-spacing);
+  line-height: var(--display-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 691px;
+}
+
+.text-elements {
+  align-items: flex-start;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 8px;
+  position: relative;
+  width: 1261px;
+}
+
+.text-elements .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  height: 38px;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.text-elements .text-wrapper {
+  color: #000000;
+  flex: 1;
+  font-family: "Roboto", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-elements .there-may-be-more-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 0px 8px 8px;
+  position: relative;
+  width: 100%;
+}
+
+.text-elements .there-may-be-more {
+  color: #000000;
+  flex: 1;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-elements-wrapper {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 44px;
+  overflow: hidden;
+  padding: 16px 8px 8px 0px;
+  position: relative;
+  width: 1261px;
+}
+
+.text-elements-wrapper .are-you-aware-of-the {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -8px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-linear-scale {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 0px;
+  position: relative;
+}
+
+.input-linear-scale .option {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #686868;
+  border-radius: 8px;
+  box-shadow: 0px 2px 1px #0000001a;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  width: 106px;
+}
+
+.input-linear-scale .text-wrapper-2 {
+  color: #000000;
+  flex: 1;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.input-linear-scale-wrapper {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 0px;
+  position: relative;
+}
+
+.input-linear-scale-wrapper .div-wrapper {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #686868;
+  border-radius: 8px;
+  box-shadow: 0px 2px 1px #0000001a;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  width: 106px;
+}
+
+.input-linear-scale-wrapper .text-wrapper-3 {
+  color: #000000;
+  flex: 1;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.button-6 {
+  all: unset;
+  align-items: center;
+  background-color: #c5bd99;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 43px;
+  justify-content: center;
+  left: 617px;
+  overflow: hidden;
+  padding: 16px 0px;
+  position: relative;
+  width: 161px;
+  margin-top: 2%;
+}
+
+ .text {
+  color: var(--primeralywhite);
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 22.4px;
+  margin-bottom: -4.5px;
+  margin-top: -6.5px;
+  position: relative;
+  text-align: center;
+  width: 134px;
+}
+
+.THANK-YOU-FOR-YOUR {
+  color: #424242;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 286px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: relative;
+  text-align: center;
+  width: 820px;
+}
+
+.span {
+  font-family: var(--headline-font-family);
+  font-size: var(--headline-font-size);
+  font-style: var(--headline-font-style);
+  font-weight: var(--headline-font-weight);
+  letter-spacing: var(--headline-letter-spacing);
+  line-height: var(--headline-line-height);
+}
+
+.text-wrapper-9 {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+}
+
+.survey .footer{
+  margin-left: -20%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+
+} 
+
+/* .container {
+  padding-top: 0%;
+} */
+
+/* .div-wrapper button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  
+}
+
+.text-wrapper-2 button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  
+} */
+
+.input-linear-scale .text-wrapper-2 button,
+.div-wrapper button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.input-linear-scale .text-wrapper-2 button:hover,
+.div-wrapper button:hover {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.input-linear-scale-wrapper .div-wrapper.clicked {
+  align-items: center;
+  background-color: #ffffff;
+  border: 4px solid;
+  border-color: #686868;
+  border-radius: 8px;
+  box-shadow: 0px 2px 1px #0000001a;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  width: 106px;
+}

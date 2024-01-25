@@ -1,0 +1,12 @@
+.vote .footer  {
+    margin-left: -20%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 2%;
+    /* background-color: red; */
+}
+
+.vote .header  {
+    margin-left: -15%;
+    /* background-color: red; */
+}

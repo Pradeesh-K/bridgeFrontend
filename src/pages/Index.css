@@ -1,0 +1,77 @@
+.d-flex.flex-column.align-items-center > .image-vote {
+  height: 231px;
+  width: 400px;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* width: 100%;
+  height: auto; */
+}
+
+
+.d-flex.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* Adjust as needed */
+}
+
+.d-flex.flex-row>div {
+  flex-basis: calc(20% - 20px);
+  /* Adjust the 20% as needed, consider padding */
+  margin: 10px;
+  /* Adjust as needed */
+}
+
+
+.button-vote {
+  all: unset;
+  background-color: #c5bd99;
+  color: var(--primeralywhite);
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  top: 21px;
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 4%;
+  width: 80%;
+  margin-bottom: 4%;
+}
+
+.button-vote:focus {
+  outline: none;
+  /* Remove default button outline on focus */
+}
+
+.thank {
+  font-size: 18px;
+  font-weight: 700;
+  color: #424242;
+}
+
+
+.main {
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 3.2%;
+  padding:0% 2%;
+}
+
+.option  {
+  transition: transform 0.4s ease;
+}
+
+.option:hover  {
+  transform: scale(1.4);
+}
+
+.main {
+  margin-top: 2%;
+}
