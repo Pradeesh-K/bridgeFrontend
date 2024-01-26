@@ -1,0 +1,42 @@
+"filename", "language", "Properties", "JavaScript", "JSON", "Markdown", "HTML", "JavaScript JSX", "CSS", "XML", "comment", "blank", "total"
+"d:\frontend\bridges\frontend\.env", "Properties", 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"d:\frontend\bridges\frontend\.eslintrc.cjs", "JavaScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 1, 21
+"d:\frontend\bridges\frontend\README.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 4, 9
+"d:\frontend\bridges\frontend\index.html", "HTML", 0, 0, 0, 0, 13, 0, 0, 0, 0, 1, 14
+"d:\frontend\bridges\frontend\package-lock.json", "JSON", 0, 0, 13704, 0, 0, 0, 0, 0, 0, 1, 13705
+"d:\frontend\bridges\frontend\package.json", "JSON", 0, 0, 56, 0, 0, 0, 0, 0, 0, 1, 57
+"d:\frontend\bridges\frontend\public\scripts\ifc7.js", "JavaScript", 0, 174, 0, 0, 0, 0, 0, 0, 89, 36, 299
+"d:\frontend\bridges\frontend\public\vite.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\frontend\bridges\frontend\src\App.css", "CSS", 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"d:\frontend\bridges\frontend\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 24, 0, 0, 2, 5, 31
+"d:\frontend\bridges\frontend\src\assets\react.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\frontend\bridges\frontend\src\assets\tum.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 57, 0, 1, 58
+"d:\frontend\bridges\frontend\src\components\BridgeCard.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 33, 0, 0, 3, 2, 38
+"d:\frontend\bridges\frontend\src\components\ComponentHome.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 19, 0, 0, 4, 3, 26
+"d:\frontend\bridges\frontend\src\components\Footer.css", "CSS", 0, 0, 0, 0, 0, 0, 146, 0, 0, 15, 161
+"d:\frontend\bridges\frontend\src\components\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 24, 0, 0, 4, 4, 32
+"d:\frontend\bridges\frontend\src\components\KitchenSink.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 70, 0, 0, 7, 14, 91
+"d:\frontend\bridges\frontend\src\components\Navbar.css", "CSS", 0, 0, 0, 0, 0, 0, 104, 0, 0, 12, 116
+"d:\frontend\bridges\frontend\src\components\Navbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 22, 0, 0, 4, 3, 29
+"d:\frontend\bridges\frontend\src\components\Review.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 22, 0, 0, 1, 4, 27
+"d:\frontend\bridges\frontend\src\components\ShowReview.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 0, 5, 22
+"d:\frontend\bridges\frontend\src\components\Stars.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 43, 0, 0, 0, 5, 48
+"d:\frontend\bridges\frontend\src\components\theme.js", "JavaScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 3, 13
+"d:\frontend\bridges\frontend\src\index.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"d:\frontend\bridges\frontend\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 12, 0, 0, 0, 2, 14
+"d:\frontend\bridges\frontend\src\pages\HomePagePre.css", "CSS", 0, 0, 0, 0, 0, 0, 335, 0, 0, 30, 365
+"d:\frontend\bridges\frontend\src\pages\HomePagePre.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 96, 0, 0, 0, 6, 102
+"d:\frontend\bridges\frontend\src\pages\Index.css", "CSS", 0, 0, 0, 0, 0, 0, 59, 0, 6, 12, 77
+"d:\frontend\bridges\frontend\src\pages\Index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 76, 0, 0, 52, 11, 139
+"d:\frontend\bridges\frontend\src\pages\Show3D.css", "CSS", 0, 0, 0, 0, 0, 0, 22, 0, 25, 6, 53
+"d:\frontend\bridges\frontend\src\pages\Show3D.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 316, 0, 0, 34, 66, 416
+"d:\frontend\bridges\frontend\src\pages\ShowBridge.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 81, 0, 0, 10, 8, 99
+"d:\frontend\bridges\frontend\src\pages\ShowGML.css", "CSS", 0, 0, 0, 0, 0, 0, 3, 0, 0, 2, 5
+"d:\frontend\bridges\frontend\src\pages\ShowGML.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 27, 0, 0, 0, 2, 29
+"d:\frontend\bridges\frontend\src\pages\Survey.css", "CSS", 0, 0, 0, 0, 0, 0, 268, 0, 24, 26, 318
+"d:\frontend\bridges\frontend\src\pages\Survey.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 535, 0, 0, 16, 24, 575
+"d:\frontend\bridges\frontend\src\pages\Vote.css", "CSS", 0, 0, 0, 0, 0, 0, 9, 0, 2, 1, 12
+"d:\frontend\bridges\frontend\src\pages\Vote.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 78, 0, 0, 5, 6, 89
+"d:\frontend\bridges\frontend\styleguide.css", "CSS", 0, 0, 0, 0, 0, 0, 40, 0, 0, 1, 41
+"d:\frontend\bridges\frontend\vite.config.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 1, 209, 13760, 5, 13, 1495, 987, 59, 289, 326, 17144
