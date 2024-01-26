@@ -314,7 +314,7 @@ let commentContainers;
         commentContainer.addEventListener("click", (event) => {
           const lastSelection = JSON.parse(event.currentTarget.dataset.id);
           console.log(lastSelection);
-          highlighter.highlightByID("default", lastSelection);
+          highlighter.highlightByID("default", lastSelection, true, true);
         });
          });
 

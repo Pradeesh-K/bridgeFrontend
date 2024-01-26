@@ -10,7 +10,7 @@ import { Link} from "react-router-dom";
 export default function Navbar() {
   return (
     <div className={`component`}>
-      <img className="group" alt="Group" src="https://c.animaapp.com/3TI0M3d2/img/group-3-1.png" />
+      <img className="group" alt="Group" src="https://res.cloudinary.com/dt6vwovu0/image/upload/v1706290691/DONNERSBERGERBR%C3%9CCKE_xrznjg.png" />
       <img className="vector" alt="Vector" src="https://c.animaapp.com/3TI0M3d2/img/vector-3.svg" />
       <Link to={`/`} style={{ textDecoration: "none" }}>
       <div className="HOME">Home</div>
