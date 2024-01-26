@@ -1,0 +1,80 @@
+Date : 2024-01-26 11:22:08
+Directory : d:\frontend\bridges\frontend
+Total : 40 files,  16529 codes, 289 comments, 326 blanks, all 17144 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |     13,760 |          0 |          2 |     13,762 |
+| JavaScript JSX |         17 |      1,495 |        142 |        170 |      1,807 |
+| CSS            |         11 |        987 |         57 |        106 |      1,150 |
+| JavaScript     |          4 |        209 |         90 |         42 |        341 |
+| XML            |          3 |         59 |          0 |          1 |         60 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| Markdown       |          1 |          5 |          0 |          4 |          9 |
+| Properties     |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                             |         40 |     16,529 |        289 |        326 |     17,144 |
+| . (Files)                                                     |          8 |     13,844 |          1 |         11 |     13,856 |
+| public                                                        |          2 |        175 |         89 |         36 |        300 |
+| public (Files)                                                |          1 |          1 |          0 |          0 |          1 |
+| public\scripts                                                |          1 |        174 |         89 |         36 |        299 |
+| src                                                           |         30 |      2,510 |        199 |        279 |      2,988 |
+| src (Files)                                                   |          4 |         37 |          2 |          8 |         47 |
+| src\assets                                                    |          2 |         58 |          0 |          1 |         59 |
+| src\components                                                |         11 |        510 |         23 |         70 |        603 |
+| src\pages                                                     |         13 |      1,905 |        174 |        200 |      2,279 |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                      | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| d:\frontend\bridges\frontend\.env                             | Properties     |          1 |          0 |          0 |          1 |
+| d:\frontend\bridges\frontend\.eslintrc.cjs                    | JavaScript     |         20 |          0 |          1 |         21 |
+| d:\frontend\bridges\frontend\README.md                        | Markdown       |          5 |          0 |          4 |          9 |
+| d:\frontend\bridges\frontend\index.html                       | HTML           |         13 |          0 |          1 |         14 |
+| d:\frontend\bridges\frontend\package-lock.json                | JSON           |     13,704 |          0 |          1 |     13,705 |
+| d:\frontend\bridges\frontend\package.json                     | JSON           |         56 |          0 |          1 |         57 |
+| d:\frontend\bridges\frontend\public\scripts\ifc7.js           | JavaScript     |        174 |         89 |         36 |        299 |
+| d:\frontend\bridges\frontend\public\vite.svg                  | XML            |          1 |          0 |          0 |          1 |
+| d:\frontend\bridges\frontend\src\App.css                      | CSS            |          1 |          0 |          0 |          1 |
+| d:\frontend\bridges\frontend\src\App.jsx                      | JavaScript JSX |         24 |          2 |          5 |         31 |
+| d:\frontend\bridges\frontend\src\assets\react.svg             | XML            |          1 |          0 |          0 |          1 |
+| d:\frontend\bridges\frontend\src\assets\tum.svg               | XML            |         57 |          0 |          1 |         58 |
+| d:\frontend\bridges\frontend\src\components\BridgeCard.jsx    | JavaScript JSX |         33 |          3 |          2 |         38 |
+| d:\frontend\bridges\frontend\src\components\ComponentHome.jsx | JavaScript JSX |         19 |          4 |          3 |         26 |
+| d:\frontend\bridges\frontend\src\components\Footer.css        | CSS            |        146 |          0 |         15 |        161 |
+| d:\frontend\bridges\frontend\src\components\Footer.jsx        | JavaScript JSX |         24 |          4 |          4 |         32 |
+| d:\frontend\bridges\frontend\src\components\KitchenSink.jsx   | JavaScript JSX |         70 |          7 |         14 |         91 |
+| d:\frontend\bridges\frontend\src\components\Navbar.css        | CSS            |        104 |          0 |         12 |        116 |
+| d:\frontend\bridges\frontend\src\components\Navbar.jsx        | JavaScript JSX |         22 |          4 |          3 |         29 |
+| d:\frontend\bridges\frontend\src\components\Review.jsx        | JavaScript JSX |         22 |          1 |          4 |         27 |
+| d:\frontend\bridges\frontend\src\components\ShowReview.jsx    | JavaScript JSX |         17 |          0 |          5 |         22 |
+| d:\frontend\bridges\frontend\src\components\Stars.jsx         | JavaScript JSX |         43 |          0 |          5 |         48 |
+| d:\frontend\bridges\frontend\src\components\theme.js          | JavaScript     |         10 |          0 |          3 |         13 |
+| d:\frontend\bridges\frontend\src\index.css                    | CSS            |          0 |          0 |          1 |          1 |
+| d:\frontend\bridges\frontend\src\main.jsx                     | JavaScript JSX |         12 |          0 |          2 |         14 |
+| d:\frontend\bridges\frontend\src\pages\HomePagePre.css        | CSS            |        335 |          0 |         30 |        365 |
+| d:\frontend\bridges\frontend\src\pages\HomePagePre.jsx        | JavaScript JSX |         96 |          0 |          6 |        102 |
+| d:\frontend\bridges\frontend\src\pages\Index.css              | CSS            |         59 |          6 |         12 |         77 |
+| d:\frontend\bridges\frontend\src\pages\Index.jsx              | JavaScript JSX |         76 |         52 |         11 |        139 |
+| d:\frontend\bridges\frontend\src\pages\Show3D.css             | CSS            |         22 |         25 |          6 |         53 |
+| d:\frontend\bridges\frontend\src\pages\Show3D.jsx             | JavaScript JSX |        316 |         34 |         66 |        416 |
+| d:\frontend\bridges\frontend\src\pages\ShowBridge.jsx         | JavaScript JSX |         81 |         10 |          8 |         99 |
+| d:\frontend\bridges\frontend\src\pages\ShowGML.css            | CSS            |          3 |          0 |          2 |          5 |
+| d:\frontend\bridges\frontend\src\pages\ShowGML.jsx            | JavaScript JSX |         27 |          0 |          2 |         29 |
+| d:\frontend\bridges\frontend\src\pages\Survey.css             | CSS            |        268 |         24 |         26 |        318 |
+| d:\frontend\bridges\frontend\src\pages\Survey.jsx             | JavaScript JSX |        535 |         16 |         24 |        575 |
+| d:\frontend\bridges\frontend\src\pages\Vote.css               | CSS            |          9 |          2 |          1 |         12 |
+| d:\frontend\bridges\frontend\src\pages\Vote.jsx               | JavaScript JSX |         78 |          5 |          6 |         89 |
+| d:\frontend\bridges\frontend\styleguide.css                   | CSS            |         40 |          0 |          1 |         41 |
+| d:\frontend\bridges\frontend\vite.config.js                   | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                         |                |     16,529 |        289 |        326 |     17,144 |
++---------------------------------------------------------------+----------------+------------+------------+------------+------------+
