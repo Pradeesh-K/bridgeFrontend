@@ -29,6 +29,7 @@ export default function Show3D() {
   let effects;
   let commentContainers;
   let propsProcessor;
+  let propsManager;
   
   const S3_BUCKET_NAME = "ifc-storage-0";
   let FILE_KEY;
