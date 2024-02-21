@@ -26,7 +26,7 @@ export default function About() {
         <h1>Project Team Members</h1>
         <div className="d-flex flex-column">
           <img
-            className="imge1 img-fluid"
+            className="imge img-fluid"
             src="https://res.cloudinary.com/dlj8wpkzr/image/upload/v1708370308/Team_vcvlhm.png"
             alt=""
           />

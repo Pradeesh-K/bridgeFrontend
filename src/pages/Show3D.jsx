@@ -473,9 +473,9 @@ export default function Show3D() {
           </div> 
         </div>
       </div>
-      <div id="footer">
+  
         <Footer />
-      </div>
+    
     </div>
   );
 }

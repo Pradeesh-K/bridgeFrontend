@@ -85,7 +85,7 @@ export default function Vote() {
           </div>
         </div>
       </div>
-      <div id="footer"><Footer /></div>
+      <Footer />
     </div>
   );
 }

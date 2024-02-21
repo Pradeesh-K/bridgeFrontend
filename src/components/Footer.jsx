@@ -42,7 +42,9 @@ export default function Footer() {
           <div className="d-flex flex-column">
             <div className="name">Donnersbergerbrücke</div>
             <div>
-
+            <Link to={`/`} style={{ textDecoration: "none" }}>
+                <button className="links">Home |</button>
+              </Link>
             <Link to={`/contact`} style={{ textDecoration: "none" }}>
             <button className="links">contact us |</button>
           </Link>
