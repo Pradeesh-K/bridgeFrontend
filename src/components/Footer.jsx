@@ -17,6 +17,10 @@ export default function Footer() {
       // Send a POST request to the backend logout route
       await fetch(`${backendURL}/auth/logout`, {
         method: 'POST',
+        headers: {
+          "Content-Type": "application/json",
+        }
+
       }).then(() => {
         localStorage.removeItem('username');
         location.reload(); 
