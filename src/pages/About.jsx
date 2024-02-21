@@ -16,6 +16,7 @@ export default function About() {
           alt=""
         />
         <img
+          className="imge img-fluid"
           src="https://res.cloudinary.com/dlj8wpkzr/image/upload/v1708422863/Fusion%20Lab%20website%20Images/ABOUT-PAGE2new_tyjdvr.png"
           alt=""
         />
@@ -23,9 +24,9 @@ export default function About() {
         <br />
 
         <h1>Project Team Members</h1>
-        <div className="d-fex flex-column">
+        <div className="d-flex flex-column">
           <img
-            className="imge1"
+            className="imge1 img-fluid"
             src="https://res.cloudinary.com/dlj8wpkzr/image/upload/v1708370308/Team_vcvlhm.png"
             alt=""
           />

@@ -17,12 +17,8 @@
 }
 
 .imge {
-    /* image 17 */
-
-    position: relative;
-    position: middle;
-    width: 1460px;
-    height: 500px;
+ 
+    width: 80%;
     margin-left: 10px;
     background: #C5BD99;
     border-radius: 10px;
@@ -31,10 +27,7 @@
 }
 
 .imge1{
-    /* image 17 */
-
-    position: relative;
-    width: 90;
+ 
     height: 200px;
     margin-left: 0;
     background: #C5BD99;
