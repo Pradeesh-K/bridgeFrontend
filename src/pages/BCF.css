@@ -1,0 +1,50 @@
+.content {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.heading1 {
+    color: #424242;
+    font-family: var(--headline-font-family);
+    font-size: var(--headline-font-size);
+    font-style: var(--headline-font-style);
+    font-weight: var(--headline-font-weight);
+    letter-spacing: var(--headline-letter-spacing);
+    line-height: var(--headline-line-height);
+    width: 700px;
+    text-align: center;
+    
+  }
+
+  #ifcCanvas {
+    width: 70vw;
+    height: 70vh; /* Set height to 50% of viewport height */
+  }
+  
+  #gui-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  
+  #gui-container li {
+    margin: 0;
+    color: #eee;
+    font-size: 12px;
+  }
+  
+  #gui-container .title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .feedbacks {
+    height:70vh;
+    width:25vw;
+    overflow-y: scroll;
+    border: 1px solid black ;
+    border-radius: 5px;
+  }
+  

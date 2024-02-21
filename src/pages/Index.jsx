@@ -18,8 +18,15 @@ export default function Index() {
         axios
             .get(`${backendURL}/bridges`)
             .then((response) => {
-                console.log(response.data);
-                setBridges(response.data);
+                
+                const sortedBridges = response.data.sort((a, b) => {
+                    const ifcLinkA = a.ifcLink;
+                    const ifcLinkB = b.ifcLink;
+                
+                    // Use localeCompare for string comparison
+                    return ifcLinkA.localeCompare(ifcLinkB);
+                });
+                setBridges(sortedBridges);
                 setLoading(false);
             })
             .catch((error) => {
@@ -62,54 +69,7 @@ export default function Index() {
                         )
                     }
             </div>
-             {/* <Link to={`/bridges/details`} style={{ textDecoration: "none" }}>
-                <div className="option d-flex flex-column align-items-center">
-                <img className="image-vote"
-            //             src="https://c.animaapp.com/Bf9qfsP6/img/image-5@2x.png"
-            //         />
-            //         <button className="button-vote">OPTION 1</button>
-            //     </div>
-            //     </Link>
-            //     <Link to={`/bridges/details`} style={{ textDecoration: "none" }}>
-            //     <div className="option d-flex flex-column align-items-center">
-            //         <img
-            //             className="image-vote"
-            //             alt="Image"
-            //             src="https://c.animaapp.com/Bf9qfsP6/img/image-3@2x.png"
-            //         />
-            //         <button className="button-vote">OPTION 2</button>
-            //     </div>
-            //     </Link>
-            //     <Link to={`/bridges/details`} style={{ textDecoration: "none" }}>
-            //     <div className="option d-flex flex-column align-items-center">
-            //         <img
-            //             className="image-vote"
-            //             alt="Image"
-            //             src="https://c.animaapp.com/Bf9qfsP6/img/image-7@2x.png"
-            //         />
-            //         <button className="button-vote">OPTION 3</button>
-            //     </div>
-            //     </Link>
-            //     <Link to={`/bridges/details`} style={{ textDecoration: "none" }}>
-            //     <div className="option d-flex flex-column align-items-center">
-            //         <img
-            //             className="image-vote"
-            //             alt="Image"
-            //             src="https://c.animaapp.com/Bf9qfsP6/img/image-8@2x.png"
-            //         />
-            //         <button className="button-vote">OPTION 4</button>
-            //     </div>
-            //     </Link>
-            //     <Link to={`/bridges/details`} style={{ textDecoration: "none" }}>
-            //     <div className="option d-flex flex-column align-items-center">
-            //         <img
-            //             className="image-vote"
-            //             alt="Image"
-            //             src="https://c.animaapp.com/Bf9qfsP6/img/image-9@2x.png"
-            //         />
-            //         <button className="button-vote">OPTION 5</button>
-            //     </div>
-            //     </Link> */}
+
             
 
                 <div className="d-flex flex-column m-5">

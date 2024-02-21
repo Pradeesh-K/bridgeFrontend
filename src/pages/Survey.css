@@ -1,9 +1,9 @@
 .survey {
-  position: relative;
+
   top: 180px;
-  padding-left: 15%;
+  margin-left: 10%;
+  margin-top: 3%;
   overflow: hidden; /* Add this line */
-  margin-top: -5%;
 }
 
 .text-wrapper-8 {
@@ -12,13 +12,10 @@
   font-size: var(--display-font-size);
   font-style: var(--display-font-style);
   font-weight: var(--display-font-weight);
-  left: 299px;
   letter-spacing: var(--display-letter-spacing);
   line-height: var(--display-line-height);
-  position: relative;
-  text-align: center;
   white-space: nowrap;
-  width: 691px;
+
 }
 
 .text-elements {
@@ -253,31 +250,7 @@
 
 } 
 
-/* .container {
-  padding-top: 0%;
-} */
 
-/* .div-wrapper button {
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
-  font-size: inherit;
-  color: inherit;
-  cursor: pointer;
-  
-}
-
-.text-wrapper-2 button {
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
-  font-size: inherit;
-  color: inherit;
-  cursor: pointer;
-  
-} */
 
 .input-linear-scale .text-wrapper-2 button,
 .div-wrapper button {
@@ -315,4 +288,22 @@
   padding: 10px;
   position: relative;
   width: 106px;
+}
+
+.button-6:hover {
+  /* width: 180px;  */
+  /* height: 53px; */
+  transform: scale(1.1);
+  transition: width 0.3s ease; /* Adjust the transition duration and easing function as needed */
+}
+
+.text:hover {
+  
+  transition: margin 0.3s ease; /* Add transition for margin change on hover */
+}
+
+.button-6:hover .text {
+  transform: scale(1.1);
+  margin: auto; /* Center the text horizontally when the button is hovered */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
 }

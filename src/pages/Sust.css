@@ -1,0 +1,56 @@
+.title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 72px;
+color: #424242;
+}
+
+.para { 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #424242;
+text-align: justify;
+
+}
+
+.heading2 {
+    /* Project sustainability goals and objectives */
+height: 44px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #424242;
+
+}
+
+.points {
+height: 381px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+align-items: left;
+text-align: justify;
+color: #424242;
+width: 30%;
+margin-top: 3%;
+margin-bottom: 5%;
+margin-left:3%;
+}
+
+.leaf {
+width: 30%;
+max-height: 500px;
+}
+
+li {
+    margin-bottom: 5%;
+}

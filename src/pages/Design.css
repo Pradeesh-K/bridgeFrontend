@@ -1,0 +1,157 @@
+.content {
+    background-color: #ffffff;
+    width: 80%;
+    margin-left: 10%;
+
+    .title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 72px;
+        color: #424242;
+
+    }
+
+    .para {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #424242;
+        text-align: justify;
+
+    }
+
+    .heading2 {
+        /* Project sustainability goals and objectives */
+        height: 44px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #424242;
+
+    }
+
+    .points {
+        height: 381px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: left;
+        text-align: justify;
+        color: #424242;
+        width: 30%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        margin-left: 3%;
+    }
+
+    .leaf {
+        width: 30%;
+        max-height: 500px;
+    }
+
+    li {
+        margin-bottom: 5%;
+    }
+
+
+    .phasingplan {
+        /* image 1 */
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .buttons {
+        all: unset;
+        align-items: center;
+        background-color: #c5bd99;
+        border-radius: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 46px;
+        justify-content: space-around;
+        overflow: hidden;
+        width: 200px;
+        
+      }
+      
+      .buttonText {
+        color: var(--primeralywhite);
+        font-family: "Inter", Helvetica;
+        font-size: 24px;
+        font-weight: 700;
+        height: 38px;
+        letter-spacing: 0.5px;
+        line-height: 38.4px;
+        margin: auto;
+        /* padding: auto; */
+        /* text-align: center; */
+        text-decoration: underline;
+        white-space: nowrap;
+        /* width: 105px; */
+      }
+
+    .imge {
+        /* image 17 */
+
+        position: relative;
+        position: center  ;
+        width: 956px;
+        height: 500px;
+        background: #C5BD99;
+        border-radius: 10px;
+    }
+
+    .imge1 {
+        /* image 17 */
+
+        position: relative;
+        align-items: right;
+
+        width: 347px;
+        height: 242px;
+        background: #C5BD99;
+        border-radius: 10px;
+    }
+
+
+    .imge2 {
+        /* image 15 */
+
+        position: relative;
+        width: 447px;
+        height: 257px;
+        left: 385px;
+
+        background: url(image.png);
+        border-radius: 10px;
+
+    }
+
+}
+
+.buttons:hover  {
+    /* width: 210px;  */
+    /* height: 53px; */
+    transform: scale(1.1);
+    transition: width 0.3s ease; /* Adjust the transition duration and easing function as needed */
+  }
+  
+  .buttonText {
+    transition: margin 0.3s ease; /* Add transition for margin change on hover */
+  }
+  
+  .buttons:hover .buttonText {
+    margin: auto; /* Center the text horizontally when the button is hovered */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  }

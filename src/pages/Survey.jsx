@@ -1,12 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-// import { Component } from "../components/Component";
-// import { Faq } from "../../components/Faq";
-// import { InputLinearScale } from "../components/InputLinearScale";
-// import { InputLinearScaleWrapper } from "../components/InputLinearScaleWrapper";
-// // import { MakersMain } from "../../components/MakersMain";
-// import { TextElements } from "../components/TextElements";
-// import { TextElementsWrapper } from "../components/TextElementsWrapper";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Survey.css";
@@ -101,7 +94,7 @@ export default function Survey() {
     <div>
       <Navbar />
       <div className="survey">
-        <div className="text-wrapper-8">SURVEY</div>
+        <div className="text-wrapper-8 text-center">SURVEY</div>
 
         <div className={`text-elements `}>
           <div className="frame">
@@ -119,37 +112,78 @@ export default function Survey() {
         <form onSubmit={handleSubmit}>
           <div className={`text-elements-wrapper `}>
             <p className={`are-you-aware-of-the `}>
-              Are you aware of the upcoming bridge reconstruction project in
-              this area?
+            How are you affected with the construction of the new bridge? As a
             </p>
           </div>
 
           <div className={`input-linear-scale-wrapper `}>
             <div
-              className={`div-wrapper ${isClicked("aware", "Yes") ? "clicked" : ""}`}
+              className={`div-wrapper ${isClicked("you", "Resident") ? "clicked" : ""
+                }`}
             >
               <div className="text-wrapper-3">
                 <button
                   type="button"
-                  onClick={() => handleOptionClick("aware", "Yes")}
+                  onClick={() => handleOptionClick("you", "Resident")}
                 >
-                  Yes
+                  Resident
                 </button>
               </div>
             </div>
             <div
-              className={`div-wrapper ${isClicked("aware", "No") ? "clicked" : ""}`}
+              className={`div-wrapper  ${isClicked("you", "Business") ? "clicked" : ""
+                }`}
             >
               <div className="text-wrapper-3">
                 <button
                   type="button"
-                  onClick={() => handleOptionClick("aware", "No")}
+                  onClick={() => handleOptionClick("you", "Business")}
                 >
-                  No
+                  Business Owner
+                </button>
+              </div>
+            </div>
+            <div
+              className={`div-wrapper   ${isClicked("you", "Emergency") ? "clicked" : ""
+                }`}
+            >
+              <div className="text-wrapper-3">
+                <button
+                  type="button"
+                  onClick={() => handleOptionClick("you", "Emergency")}
+                >
+                  Emergency Services Staff
+                </button>
+              </div>
+            </div>
+            <div
+              className={`div-wrapper   ${isClicked("you", "Office") ? "clicked" : ""
+                }`}
+            >
+              <div className="text-wrapper-3">
+                <button
+                  type="button"
+                  onClick={() => handleOptionClick("you", "Office")}
+                >
+                  Office/Work
+                </button>
+              </div>
+            </div>
+            <div
+              className={`div-wrapper   ${isClicked("you", "Commuter") ? "clicked" : ""
+                }`}
+            >
+              <div className="text-wrapper-3">
+                <button
+                  type="button"
+                  onClick={() => handleOptionClick("you", "Commuter")}
+                >
+                  Commuter
                 </button>
               </div>
             </div>
           </div>
+
 
           <div className={`text-elements-wrapper `}>
             <p className={`are-you-aware-of-the `}>
@@ -565,10 +599,8 @@ export default function Survey() {
             THANK YOU FOR YOUR PARTICIPATION
           </span>
         </p>
-        <div className="footer">
-          <Footer />
-        </div>
       </div>
+          <Footer />
     </div>
   );
 }

@@ -1,0 +1,121 @@
+.title {
+    /* Upcoming Temporary Road Closures */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    color: #424242;
+}
+
+.notice {
+    /* Traffic delays, detours and short-term road closures are occasionally necessary to complete certain construction activities. We are taking measures to minimize impacts of construction on the neighbouring communities to ensure that access to businesses, residences in the area as well as emergency services (police, fire and medical response) access will be maintained at all times. Dates and times below may change due to weather conditions and other factors affecting construction activities. Although this list is intended to be comprehensive, unavoidable emergency road detours and road closures may occur. Please watch for workers when traveling in the area. We apologize for any inconvenience and thank you for your patience. There are many ways to stay connected with us. We encourage open dialogue and will work to answer your questions. */
+
+    
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 72px;
+        color: #424242;
+    /* or 150% */
+    /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+    leading-trim: both;
+    text-edge: cap;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #424242;
+
+
+}
+
+
+
+.Content {
+    background-color: #424242;
+    height: 100%;
+    position: static;
+    width: 80%;
+    margin-left: 10%;
+    bottom: 0;
+}
+
+
+.para2 {
+    /* Traffic delays, detours and short-term road closures are occasionally necessary to complete certain construction activities. We are taking measures to minimize impacts of construction on the neighbouring communities to ensure that access to businesses, residences in the area as well as emergency services (police, fire and medical response) access will be maintained at all times. Dates and times below may change due to weather conditions and other factors affecting construction activities. Although this list is intended to be comprehensive, unavoidable emergency road detours and road closures may occur. Please watch for workers when traveling in the area. We apologize for any inconvenience and thank you for your patience. There are many ways to stay connected with us. We encourage open dialogue and will work to answer your questions. */  
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 150% */
+    /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+    leading-trim: both;
+    text-edge: cap;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #424242;
+
+
+}
+
+.heading2 {
+    /* Notice */
+
+    /* Notice */
+
+width: 928px;
+height: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+
+color: #424242;
+
+
+
+}
+
+.points {
+    height: 381px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: left;
+    text-align: justify;
+    color: #424242;
+    width: 30%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.rectangle {
+    /* Group 71 */
+
+    
+    width: 100%;
+    
+}
+
+li {
+    margin-bottom: 5%;
+}

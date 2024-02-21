@@ -69,7 +69,7 @@ export default function KitchenSink({bridge}) {
     };
 
   return (
-    <Card style={{ width: '36rem' }}>
+    <Card style={{ width: '100%' }}>
       <Card.Img variant="top" src={bridge.images && bridge.images[0]}  style={{ width: '100%', height: '25rem' }}/>
       <Card.Body>
         <div className='d-flex'>

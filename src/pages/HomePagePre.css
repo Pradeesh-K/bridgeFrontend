@@ -1,137 +1,69 @@
 .HOME-PAGE-pre {
   background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin:0 10%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.group1 {
 
 }
 
-.HOME-PAGE-pre .div-2 {
-  background-color: #ffffff;
-  height: 1791px;
-  overflow: hidden;
-  position: relative;
-  width: 1440px;
+.mainImage {
+  max-width: 100%;
+  height: auto;
 }
 
-.HOME-PAGE-pre .overlap {
-  height: 752px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1440px;
-}
 
-.HOME-PAGE-pre .image {
-  height: 561px;
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 191px;
-  width: 1439px;
-}
-
-.HOME-PAGE-pre .component-2 {
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-}
-
-.HOME-PAGE-pre .overlap-2 {
-  height: 559px;
-  left: 87px;
-  position: absolute;
-  top: 789px;
-  width: 1269px;
-}
-
-.HOME-PAGE-pre .group-3 {
-  height: 454px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1269px;
-}
-
-.HOME-PAGE-pre .text-wrapper-2 {
+.heading1 {
   color: #424242;
   font-family: var(--headline-font-family);
   font-size: var(--headline-font-size);
   font-style: var(--headline-font-style);
   font-weight: var(--headline-font-weight);
-  left: 276px;
   letter-spacing: var(--headline-letter-spacing);
   line-height: var(--headline-line-height);
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
   width: 700px;
 }
 
-.HOME-PAGE-pre .text-wrapper-3 {
+.heading2 {
   color: #424242;
   font-family: var(--title-font-family);
   font-size: var(--title-font-size);
   font-style: var(--title-font-style);
   font-weight: var(--title-font-weight);
-  left: 357px;
   letter-spacing: var(--title-letter-spacing);
   line-height: var(--title-line-height);
-  position: absolute;
-  text-align: center;
-  top: 66px;
   width: 525px;
 }
 
-.HOME-PAGE-pre .exciting-times-are {
+.mainPara{
   color: #424242;
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   font-style: var(--body-font-style);
   font-weight: var(--body-font-weight);
-  left: 0;
   letter-spacing: var(--body-letter-spacing);
   line-height: var(--body-line-height);
-  position: absolute;
   text-align: justify;
-  top: 120px;
-  width: 1263px;
 }
 
-.HOME-PAGE-pre .group-4 {
+
+ .group2 {
   height: 125px;
-  left: 393px;
-  position: absolute;
-  top: 434px;
-  width: 494px;
 }
 
-.HOME-PAGE-pre .div-wrapper {
-  height: 40px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 496px;
-}
 
-.HOME-PAGE-pre .text-wrapper-4 {
+.group2-subHeading {
   color: #424242;
   font-family: "Inter", Helvetica;
   font-size: 32px;
   font-weight: 800;
-  left: 0;
   letter-spacing: 0;
   line-height: 48px;
-  position: absolute;
-  text-align: center;
-  top: 0;
   white-space: nowrap;
-  width: 494px;
 }
 
-.HOME-PAGE-pre .button-6 {
+.buttons {
   all: unset;
   align-items: center;
   background-color: #c5bd99;
@@ -142,14 +74,12 @@
   gap: 10px;
   height: 46px;
   justify-content: space-around;
-  left: 50px;
   overflow: hidden;
-  position: absolute;
-  top: 79px;
-  width: 150px;
+  width: 200px;
+  
 }
 
-.HOME-PAGE-pre .text {
+.buttonText {
   color: var(--primeralywhite);
   font-family: "Inter", Helvetica;
   font-size: 24px;
@@ -157,14 +87,15 @@
   height: 38px;
   letter-spacing: 0.5px;
   line-height: 38.4px;
-  position: relative;
-  text-align: center;
+  margin: auto;
+  /* padding: auto; */
+  /* text-align: center; */
   text-decoration: underline;
   white-space: nowrap;
-  width: 105px;
+  /* width: 105px; */
 }
 
-.HOME-PAGE-pre .button-7 {
+.buttonsSmall {
   all: unset;
   align-items: center;
   background-color: #c5bd99;
@@ -175,191 +106,72 @@
   gap: 10px;
   height: 46px;
   justify-content: space-around;
-  left: 303px;
   overflow: hidden;
-  position: absolute;
-  top: 79px;
-  width: 150px;
+  width: 200px;
+  
 }
 
-.HOME-PAGE-pre .text-2 {
+.buttonTextSmall {
   color: var(--primeralywhite);
   font-family: "Inter", Helvetica;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
-  height: 33px;
   letter-spacing: 0.5px;
-  line-height: 38.4px;
-  position: relative;
   text-align: center;
   text-decoration: underline;
   white-space: nowrap;
-  width: 133px;
 }
 
-.HOME-PAGE-pre .line {
+ .line {
   height: 1px;
-  left: 91px;
-  object-fit: cover;
-  position: absolute;
-  top: 1384px;
-  width: 1260px;
+  margin-top: 3%;
 }
 
-.HOME-PAGE-pre .group-5 {
+.group3 {
   height: 153px;
-  left: 28px;
-  position: absolute;
-  top: 1413px;
-  width: 1366px;
+  margin-top: 3%;
 }
 
-.HOME-PAGE-pre .group-6 {
-  height: 101px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1374px;
-}
-
-.HOME-PAGE-pre .text-wrapper-5 {
+.text-wrapper-5 {
   color: #424242;
   font-family: var(--headline-font-family);
   font-size: var(--headline-font-size);
   font-style: var(--headline-font-style);
   font-weight: var(--headline-font-weight);
-  left: 482px;
   letter-spacing: var(--headline-letter-spacing);
   line-height: var(--headline-line-height);
-  position: absolute;
-  top: 0;
   white-space: nowrap;
-  width: 552px;
 }
 
-.HOME-PAGE-pre .text-wrapper-6 {
+.text-wrapper-6 {
   color: #424242;
   font-family: var(--title-font-family);
   font-size: var(--title-font-size);
   font-style: var(--title-font-style);
   font-weight: var(--title-font-weight);
-  left: 0;
   letter-spacing: var(--title-letter-spacing);
   line-height: var(--title-line-height);
-  position: absolute;
-  text-align: center;
-  top: 62px;
   white-space: nowrap;
-  width: 288px;
 }
 
-.HOME-PAGE-pre .text-wrapper-7 {
-  color: #424242;
-  font-family: var(--title-font-family);
-  font-size: var(--title-font-size);
-  font-style: var(--title-font-style);
-  font-weight: var(--title-font-weight);
-  left: 522px;
-  letter-spacing: var(--title-letter-spacing);
-  line-height: var(--title-line-height);
-  position: absolute;
-  text-align: center;
-  top: 62px;
-  white-space: nowrap;
-  width: 340px;
+.buttons:hover, .buttonsSmall:hover {
+  /* width: 210px;  */
+  /* height: 53px; */
+  transform: scale(1.1);
+  transition: width 0.3s ease; /* Adjust the transition duration and easing function as needed */
 }
 
-.HOME-PAGE-pre .text-wrapper-8 {
-  color: #424242;
-  font-family: var(--title-font-family);
-  font-size: var(--title-font-size);
-  font-style: var(--title-font-style);
-  font-weight: var(--title-font-weight);
-  left: 1026px;
-  letter-spacing: var(--title-letter-spacing);
-  line-height: var(--title-line-height);
-  position: absolute;
-  text-align: center;
-  top: 61px;
-  white-space: nowrap;
-  width: 340px;
+.buttonText ,.buttonTextSmall{
+  transition: margin 0.3s ease; /* Add transition for margin change on hover */
 }
 
-.HOME-PAGE-pre .button-8 {
-  all: unset;
-  align-items: center;
-  background-color: #c5bd99;
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 46px;
-  justify-content: space-around;
-  left: 50px;
-  overflow: hidden;
-  position: absolute;
-  top: 107px;
-  width: 182px;
+.buttons:hover .buttonText {
+  margin: auto; /* Center the text horizontally when the button is hovered */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
 }
 
-.HOME-PAGE-pre .text-3 {
-  color: var(--primeralywhite);
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 700;
-  height: 32px;
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-left: -9.5px;
-  margin-right: -9.5px;
-  position: relative;
-  text-align: center;
-  width: 201px;
-}
-
-.HOME-PAGE-pre .button-9 {
-  all: unset;
-  align-items: center;
-  background-color: #c5bd99;
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 46px;
-  justify-content: space-around;
-  left: 600px;
-  overflow: hidden;
-  position: absolute;
-  top: 107px;
-  width: 182px;
-}
-
-.HOME-PAGE-pre .button-10 {
-  all: unset;
-  align-items: center;
-  background-color: #c5bd99;
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 46px;
-  justify-content: space-around;
-  left: 1113px;
-  overflow: hidden;
-  position: absolute;
-  top: 107px;
-  width: 182px;
-}
-
-.HOME-PAGE-pre .component-3 {
-  left: 1px !important;
-  position: absolute !important;
-  top: 1643px !important;
-}
-
-.div-2 {
-  margin-top: -1%;
+.buttonsSmall:hover .buttonTextSmall {
+  transform: scale(1.1);
+  margin: auto; /* Center the text horizontally when the button is hovered */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
 }

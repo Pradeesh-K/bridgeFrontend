@@ -1,52 +1,53 @@
-/* .container .header {
-    position: relative;
-    top: 0;
-    margin-left: -15%;
-}
-/* .container {
-    position: relative;
-} */
-/* .container {
-    position: fixed;
-    top: 100px;
-    left: 10%;
-    bottom: 10%;
-    /* background-color: red; 
-
-} 
-*/
-
 #ifcCanvas {
-    width: 60%;
-    height: 70vh; /* Set height to 50% of viewport height */
-    position: relative;
-    top: 150px;
-    margin-left: 5%;
-    /* background-color: blue; */
-} 
+  width: 70%;
+  height: 70vh; /* Set height to 50% of viewport height */
+}
 
 #gui-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 0;
-    padding-right: 0;
-  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
 
-  /* #commenter {
-    width: 400px;
-    top: 200%;
-    margin-right: 0;
-    margin-top: 150px;
-  } */
+#comment {
+  /* position: relative;
+    top: 150px;*/
+  margin-left: 5%;
+  width: 30%;
+  /* background-color: red; */
+}
 
-  .d-flex{
-    /* margin-top: 5%; */
-  }
-  #comment {
-    position: relative;
-    top: 150px;
-    margin-left: 2%;
-    width: 400px;
-  }
+#content {
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: blue; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
+#gui-container li {
+  margin: 0;
+  color: #eee;
+  font-size: 12px;
+}
+
+#gui-container .title {
+  font-size: 18px;
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  width: 100%;
+}
+
+.feedbacks {
+  height:50%;
+  overflow-y: scroll;
+  border: 1px solid black ;
+  border-radius: 5px;
+}

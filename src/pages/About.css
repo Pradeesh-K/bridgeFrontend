@@ -1,0 +1,86 @@
+.about {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.title {
+    /* Upcoming Temporary Road Closures */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 72px;
+    color: #424242;
+}
+
+.imge {
+    /* image 17 */
+
+    position: relative;
+    position: middle;
+    width: 1460px;
+    height: 500px;
+    margin-left: 10px;
+    background: #C5BD99;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.imge1{
+    /* image 17 */
+
+    position: relative;
+    width: 90;
+    height: 200px;
+    margin-left: 0;
+    background: #C5BD99;
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+}
+
+.mainImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.links {
+    margin-left: 50;
+}
+
+.linkIn {
+    margin-left: 0;
+    all: unset;
+    box-sizing: border-box;
+    color: #c5bd99;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 100;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: underline;
+    white-space: nowrap;
+    margin-right: 100px;
+}
+
+.linkIn2 {
+    position: relative;
+    margin-left: 90;
+    all: unset;
+    box-sizing: border-box;
+    color: #c5bd99;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 100;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: underline;
+    white-space: nowrap;
+    margin-right: -70px;
+}
