@@ -14,7 +14,7 @@ export default function HomePagePre() {
           <img
             className="mainImage"
             alt="Image"
-            src="https://c.animaapp.com/3TI0M3d2/img/image-2.png"
+            src="https://res.cloudinary.com/dlj8wpkzr/image/upload/v1708450939/Fusion%20Lab%20website%20Images/r45_jfvgfp.png"
           />
           <div className="heading1 text-center mt-5 mb-4">
             DONNERSBERGERBRÜCKE
