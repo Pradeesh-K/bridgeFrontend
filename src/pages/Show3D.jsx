@@ -407,6 +407,7 @@ export default function Show3D() {
         <div id="comment" className="d-flex flex-column">
           <div>
             <h3>Click to select and view more details, Use Filters to hide</h3>
+            <p>Note: May take a while to load</p>
             <form onSubmit={handleSubmit}>
               <div className="input-group mb-3">
                 <div className="input-group-prepend">

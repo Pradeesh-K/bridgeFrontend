@@ -18,11 +18,10 @@
 
 .imge {
  
-    width: 80%;
+    width: 100%;
     margin-left: 10px;
     background: #C5BD99;
     border-radius: 10px;
-    max-width: 100%;
     height: auto;
 }
 
@@ -32,7 +31,7 @@
     margin-left: 0;
     background: #C5BD99;
     border-radius: 10px;
-    max-width: 90%;
+    width: 100%;
     height: auto;
 }
 

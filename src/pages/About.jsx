@@ -9,7 +9,7 @@ export default function About() {
     <>
       <Navbar />
 
-      <div className="group1 d-flex flex-column align-items-center mt-5">
+      <div className="about d-flex flex-column align-items-center mt-5">
         <img
           className="imge img-fluid"
           src="https://res.cloudinary.com/dlj8wpkzr/image/upload/v1708422453/Fusion%20Lab%20website%20Images/New_about_pic_pb9qrt.png"
