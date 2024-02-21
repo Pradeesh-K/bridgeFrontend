@@ -28,7 +28,7 @@ export default function Show3D() {
   let gridMesh;
   let effects;
   let commentContainers;
-  let propsManager;
+  let propsProcessor;
   
   const S3_BUCKET_NAME = "ifc-storage-0";
   let FILE_KEY;
@@ -64,14 +64,6 @@ export default function Show3D() {
       [key]: value,
     }));
   };
-
-  const handleSelection = (lastSelection) => {
-  console.log("Previous state:", selectedFrags);
-  console.log("Adding:", lastSelection);
-  
-  setSelectedFrags((prevFrags) => [...prevFrags, { ...lastSelection }]);
-};
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -168,11 +160,8 @@ export default function Show3D() {
       );
       // const properties = await fetch("../../small.json");
       model.properties = await properties.json();
-      // console.log(model);
-      /* a new instance of the component to navigate
-      IFC properties: the `IfcPropertiesProcessor`. We will also
-      make its built-in floating window visible by default. I will remove the default */
-      const propsProcessor = new OBC.IfcPropertiesProcessor(components);
+     
+      propsProcessor = new OBC.IfcPropertiesProcessor(components);
 
       propsProcessor.process(model);
 
@@ -200,30 +189,15 @@ export default function Show3D() {
         // console.log("Exp id", expressID);
         // console.log("selected frag", selectedFrags);
         // console.log("model", model);
-        const { schema } = OBC.IfcPropertiesManager.getIFCInfo(model);
-    const { name } = OBC.IfcPropertiesUtils.getEntityName(properties, expressID);
-    console.log('try schema', );
-        // const foundObject = selectedFrags.find((lastSelection) => lastSelection[Object.keys(lastSelection)[0]] === expressID);
-        // if (foundObject) {
-        //   console.log("here");
-        //   setSelectCount((prevCount) => prevCount - 1);
-        //     setSelectedFrags((prevFrags) =>
-        //       prevFrags.filter((lastSelection) => lastSelection[Object.keys(lastSelection)[0]] != expressID)
-        //     )
-        //     await highlighter.clearFills("default");
-        //  }
+    //     const { schema } = OBC.IfcPropertiesManager.getIFCInfo(model);
+    // const { name } = OBC.IfcPropertiesUtils.getEntityName(properties, expressID);
+    // console.log('try schema', );
+        
         const targetPosition = new THREE.Vector3();
         const cameraPosition = new THREE.Vector3();
         components.camera.controls.getTarget(targetPosition);
         components.camera.controls.getPosition(cameraPosition);
-        // console.log("GUID", model.properties[expressID]["GlobalId"]["value"]);
-        // console.log("Name ", model.properties[expressID]["Name"]["value"]);
-        // console.log(
-        //   `Camera position: ${cameraPosition.x}, ${cameraPosition.y}, ${cameraPosition.z}`
-        // );
-        // console.log(
-        //   `Target position: ${targetPosition.x}, ${targetPosition.y}, ${targetPosition.z}`
-        // );
+        
         handleAdditionalDataChange(
           "GUID",
           model.properties[expressID]["GlobalId"]["value"]
@@ -291,11 +265,7 @@ export default function Show3D() {
         });
       }
 
-      // const hiderButton = hider.uiElement.get("main");
-      // toolbar.addChild(hiderButton);
-
-      // code for highlighting
-      //highlighted material update
+      
       const highlightMaterial = new THREE.MeshBasicMaterial({
         color: "#2aacf7",
         depthTest: false,
@@ -312,24 +282,7 @@ export default function Show3D() {
       let singleSelection = {
         value: true,
       };
-      /* I dont know how this takes arguments but this highlights based on click event, but somehow it highlights, single
-        // singleSelection.value deternmines if multiple highlights are possible or not
-        singleSelection = false lets multiple highlights but how to unhighlight something
-        on each highlight the result object is taken, its fragments are looped through, the lastselection 
-        Result is the selected object, 
-        I should see how remove last highlight works and use it to my advantage
-        Selection 
-        unselection
-        How to determine if something is already selected
-         state or something
-         or selection counter
-         How to reset a selection counter 
-         1. on submitting a comment
-         2. on clicking an existing comment
-         Multiple colors for different objects
-         Date time for 
-        
-        */
+      
 
       async function highlightOnClick(event) {
         // await highlighter.clearFills("default");
@@ -344,21 +297,7 @@ export default function Show3D() {
             lastSelection[fragmentID] = [result.id];
           }
         }
-        // setSelectCount((prevCount) => prevCount + 1);
-        // handleSelection(lastSelection);
-        // // const foundObject = selectedFrags.find((obj) => obj.id === result.id);
-        // // if (!foundObject) {
-        // //   setSelectCount((prevCount) => prevCount + 1);
-        // //   setSelectedFrags((prevFrags) => [...prevFrags, result]);
-        // // } else {
-        // //   console.log("here");
-        // //   console.log(foundObject);
-        // //   setSelectCount((prevCount) => prevCount - 1);
-        // //   setSelectedFrags((prevFrags) =>
-        // //     prevFrags.filter((obj) => obj.id !== result.id)
-        // //   );
-        // //   await highlighter.clearFills("default");
-        // // }
+        
         
        
 
