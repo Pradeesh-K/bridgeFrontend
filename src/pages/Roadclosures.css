@@ -20,12 +20,7 @@
         line-height: 72px;
         color: #424242;
     /* or 150% */
-    /* leading-trim and text-edge are draft CSS properties.
 
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-    leading-trim: both;
-    text-edge: cap;
     display: flex;
     align-items: center;
     text-align: justify;
@@ -60,8 +55,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 */
-    leading-trim: both;
-    text-edge: cap;
+
     display: flex;
     align-items: center;
     text-align: justify;
