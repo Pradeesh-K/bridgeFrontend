@@ -14,6 +14,9 @@ export default function Footer() {
   const navigate = useNavigate();
   const handleLogout = async () => {
     try {
+      localStorage.removeItem('username');
+        location.reload(); 
+        navigate('/');
       // Send a POST request to the backend logout route
       await fetch(`${backendURL}/auth/logout`, {
         method: 'POST',
