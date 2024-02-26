@@ -14,6 +14,7 @@ import Spinner from "react-bootstrap/Spinner";
 import Review from "../components/Review";
 import ShowReview from "../components/ShowReview";
 import Button from "react-bootstrap/Button";
+const jwtToken = localStorage.getItem('dbToken');
 const backendURL =
   import.meta.env.VITE_REACT_APP_BACKEND_URL || "http://localhost:5555";
 
@@ -26,7 +27,11 @@ export default function Vote() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`${backendURL}/bridges/${id}`)
+    .get(`${backendURL}/bridges/${id}`, {
+      headers: {
+        Authorization: `Bearer ${jwtToken}`, // Include the JWT token in the Authorization header
+      },
+    })
       .then((response) => {
         // console.log(response.data);
         setBridge(response.data);

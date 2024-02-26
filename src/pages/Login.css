@@ -66,4 +66,12 @@ margin-bottom: 3%;
 /* Create an account */
 
 
+.buttonTextOtp {
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    
+    }

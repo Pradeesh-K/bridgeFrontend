@@ -53,6 +53,7 @@ export default function Login({source}) {
         />
         <div className="login-form">
           <h2 className="heading text-center">Sign in </h2>
+          <p className="text-center">To test the BCF functionality use username: pradeesh , password: 1</p>
           {/* <form action={`${backendURL}/auth/login`} method="POST" > */}
           <form onSubmit={handleSubmit}>
 

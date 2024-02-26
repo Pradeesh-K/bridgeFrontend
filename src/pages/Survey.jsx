@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import "./Survey.css";
 const backendURL = import.meta.env.VITE_REACT_APP_BACKEND_URL || 'http://localhost:5555';
 
+const jwtToken = localStorage.getItem('dbToken');
 
 export default function Survey() {
   const [answers, setAnswers] = useState([]);
@@ -66,6 +67,7 @@ export default function Survey() {
     console.log(answersJSON);
 
 
+
     // Append the JSON data to the form data
     // formData.append("answers", answersJSON);
 
@@ -75,6 +77,7 @@ export default function Survey() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Authorization: `Bearer ${jwtToken}`
         },
         body: answersJSON
       });

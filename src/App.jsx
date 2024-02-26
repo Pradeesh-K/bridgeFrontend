@@ -20,6 +20,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import BCF from "./pages/BCF";
 import Statistics from "./pages/Statistics";
+import OTP from "./pages/OTP";
 import "@coreui/coreui/dist/css/coreui.min.css";
 
 
@@ -52,6 +53,7 @@ function App() {
         <Route path="/bridges/3d/:id" element={<Show3D />} />
         <Route path="/bridges/gml/:id" element={<ShowGML />} />
         <Route path="/Statistics" element={<Statistics />} />
+        <Route path="/otp" element={<OTP/>} />
         {/* <Route path='/books/delete/:id' element = {<DeleteBook/>} /> */}
       </Routes>
     </>

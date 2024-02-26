@@ -49,6 +49,7 @@ export default function Show3D() {
     FILE_KEY = "D";
   }
   
+  const jwtToken = localStorage.getItem('dbToken');
 
   const [additionalData, setAdditionalData] = useState({
     GUID: "",
@@ -86,6 +87,7 @@ export default function Show3D() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Authorization: `Bearer ${jwtToken}`,
           // Add any additional headers if needed
         },
         body: JSON.stringify(combinedData),
@@ -220,6 +222,7 @@ export default function Show3D() {
 
         propsProcessor.uiElement.get("propertiesWindow").visible = true;
         propsProcessor.renderProperties(model, expressID);
+        
       });
 
       //toolbar

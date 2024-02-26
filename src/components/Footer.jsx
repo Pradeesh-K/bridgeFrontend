@@ -15,6 +15,7 @@ export default function Footer() {
   const handleLogout = async () => {
     try {
       localStorage.removeItem('username');
+      localStorage.removeItem('dbToken');
         location.reload(); 
         navigate('/');
       // Send a POST request to the backend logout route

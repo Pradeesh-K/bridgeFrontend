@@ -58,7 +58,7 @@ export default function Index() {
                                 //   <Col key={bridge._id} xs={12} sm={6} md={4} lg={4} className="mb-4 px-auto">
                                 //     <BridgeCard bridge={bridge} className="px-auto mx-auto"/>
                                 //   </Col>
-                                <Link to={`/bridges/details/${bridge._id}`} key={bridge.id} style={{ textDecoration: "none" }}>
+                                <Link to={`/bridges/details/${bridge._id}`} key={bridge._id} style={{ textDecoration: "none" }}>
                                     <div className="option d-flex flex-column align-items-center">
                                         <img className="image-vote" src={bridge.images[0]} alt={`Bridge ${bridge.id}`} />
                                         <button className="button-vote">OPTION {bridge.ifcLink}</button>
