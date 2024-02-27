@@ -8,6 +8,7 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import { useState,useEffect } from 'react';
 import axios from "axios";
 const backendURL = import.meta.env.VITE_REACT_APP_BACKEND_URL || 'http://localhost:5555';
+const jwtToken = localStorage.getItem('dbToken');
 
 export default function KitchenSink({bridge}) {
     // console.log(bridge);
@@ -23,10 +24,17 @@ export default function KitchenSink({bridge}) {
         // Check if the user has already performed the action
         if (!state && !otherState) {
           // Make a PUT request to update the bridge with the new information
-          const updatedBridge = await axios.put(`${backendURL}/bridges/${id}`, {
-          
-            [actionType]: bridge[actionType] + 1,
-          });
+          const updatedBridge = await axios.put(
+            `${backendURL}/bridges/${id}`,
+            {
+              [actionType]: bridge[actionType] + 1,
+            },
+            {
+              headers: {
+                Authorization: `Bearer ${jwtToken}`, // Include the JWT token in the Authorization header
+              },
+            }
+          );
     
           // Update the component state and log the message
           setState(true);
@@ -34,9 +42,17 @@ export default function KitchenSink({bridge}) {
         } else if (state && !otherState) {
           console.log(`Already ${actionType.toLowerCase()}ed!`);
           // User has already performed the action, so remove it
-        const updatedBridge = await axios.put(`${backendURL}/bridges/${id}`, {
-        [actionType]: bridge[actionType] - 1,
-          });
+          const updatedBridge = await axios.put(
+            `${backendURL}/bridges/${id}`,
+            {
+              [actionType]: bridge[actionType] - 1,
+            },
+            {
+              headers: {
+                Authorization: `Bearer ${jwtToken}`, // Include the JWT token in the Authorization header
+              },
+            }
+          );
       // Update the component state and log the message
       setState(false);
       console.log(`Removed ${actionType.toLowerCase()}!`, updatedBridge.data);
@@ -45,10 +61,18 @@ export default function KitchenSink({bridge}) {
         else if (!state && otherState) {
           
           
-        const updatedBridge = await axios.put(`${backendURL}/bridges/${id}`, {
-        [actionType]: bridge[actionType] +1,
-        [otherActionType]: bridge[otherActionType] -1,
-          });
+          const updatedBridge = await axios.put(
+            `${backendURL}/bridges/${id}`,
+            {
+              [actionType]: bridge[actionType] + 1,
+              [otherActionType]: bridge[otherActionType] - 1,
+            },
+            {
+              headers: {
+                Authorization: `Bearer ${jwtToken}`, // Include the JWT token in the Authorization header
+              },
+            }
+          );
           setState(true);
       // Update the component state and log the message
       otherSetState(false);
